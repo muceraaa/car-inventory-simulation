@@ -12,7 +12,7 @@ turtle.color("black")   # Set default drawing color
 turtle.penup() #For precise positioning of the turtle before starting to draw lines initially 
 
 # Generate random lengths for vehicles
-a = 50
+a = 30
 b = 95
 u = random.random()
 truck_length =a + u * (b -a)
