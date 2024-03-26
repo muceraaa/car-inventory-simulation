@@ -81,13 +81,18 @@ def draw_car():
     car.left(90)
     car.forward(car_length / 2)
     car.right(75)
-    car.forward(car_length)
+    car.forward(car_length / 1.75)
     car.left(75)
-    car.forward(car_length / 2)
+    car.forward(car_length /2)
+    car.left(90)
+    car.forward(car_length / 1.75)
+    car.left(180)
+    car.forward(car_length /1.75)
+    car.left(90)
+    car.forward(car_length /2)
     car.left(75)
-    car.forward(car_length)
+    car.forward(car_length / 1.75)
 
-    
     # Lift the pen after drawing the car
     car.penup()
     # Hide the turtle (car) after drawing
