@@ -51,10 +51,11 @@ def draw_truck():
     truck.forward(truck_length * 0.5)
     truck.left(90)
     truck.forward(truck_length)
-
-    #truck.end_fill() # End the fill operation
+    truck.end_fill()# End the fill operation
     
-    # Draw the first wheel of the truck
+    # Position the wheels of the truck
+    truck.fillcolor(red_amount, green_amount, blue_amount)
+    truck.begin_fill()
     truck.back(0.5 * truck_length)
     truck.right(90)
     truck.forward(0.3 * truck_length)
@@ -66,7 +67,7 @@ def draw_truck():
     truck.end_fill()
     truck.forward(0.5 * truck_length)
     
-    # Draw the second wheel of the truck
+    # Draw the first wheel of the truck
     truck.left(90)
     truck.forward(truck_length / 8)
     truck.fillcolor('black')
@@ -75,7 +76,7 @@ def draw_truck():
     truck.end_fill()
     truck.back(truck_length / 8)
     
-    # Draw the third wheel of the truck
+    # Draw the second wheel of the truck
     truck.right(90)
     truck.forward(1.5 * truck_length)
     truck.left(90)
@@ -86,7 +87,7 @@ def draw_truck():
     truck.end_fill()
     truck.back(truck_length / 8)
     
-    # Draw the fourth wheel of the truck
+    # Draw the third wheel of the truck
     truck.right(90)
     truck.forward(0.5 * truck_length)
     truck.left(90)
