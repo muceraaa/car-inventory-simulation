@@ -1,9 +1,6 @@
 import random
 import turtle
 
-#Create turtle objects for drawing
-flower = turtle.Turtle()
-
 #Function for drawing the flowers
 def drawflowers():
     # Set initial position
