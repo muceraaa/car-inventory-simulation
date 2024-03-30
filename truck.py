@@ -13,7 +13,7 @@ turtle.penup() #For precise positioning of the turtle before starting to draw li
 
 # Generate random lengths for vehicles
 a = 30
-b = 95
+b = 100
 u = random.random()
 truck_length =a + u * (b -a)
 
